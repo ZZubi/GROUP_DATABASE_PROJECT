@@ -1,27 +1,96 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e656fadb-adef-4fc2-bc08-131cf567b844" />
 
-## Descripción
-Este repositorio alberga el proyecto de grupo centrado en el desarrollo e implementación de una **base de datos**.
 
-El contenido principal incluye:
-* Definición y modelado de la base de datos (ER/Relacional).
-* Scripts de población de datos (Data Seeding).
-* Scripts de ejecución de SQL en servidor remoto alojado en Render.com
+# 📚 Proyecto de Creación de una Base de Datos Relacional  
+### Bootcamps de The Bridge – Campus Vitoria (Promoción Octubre 2025)
 
 ---
 
-## Tecnologías
-El proyecto ha sido desarrollado utilizando las siguientes tecnologías:
+## 📝 Descripción
 
-* **Jupyter Notebook** (para la documentación y ejecución de código).
-* **Python** (lenguaje de programación principal).
-* **SQL** (para la manipulación y consulta de la base de datos).
+Este repositorio contiene nuestro proyecto de grupo enfocado en el **diseño, construcción y despliegue** de una base de datos relacional a partir de datos sin normalizar de estudiantes y profesorado.  
+El trabajo ha sido desarrollado conjuntamente por alumnado de **Full Stack** y **Data Science**.
 
 ---
 
-## Estructura
-El código principal del proyecto se encuentra organizado dentro de la carpeta:
+## 👥 Equipo
 
-* `src/`: Contiene los notebooks de Jupyter con la lógica, el diseño de la base de datos y los análisis realizados.
-* `Modelos_Relacional_Logico/`: Contiene los diagramas relacional y lógico con el diseño de la BBDD.
+### Full Stack Development
+- **Sonia Nseng**
+- **Sebastián Salazar**
+
+### Data Science
+- **Zigor Zubiaguirre**
+- **Rebeca Pérez**
+- **Patricia Ballesteros**
+
+---
+
+## 📦 Contenido del Proyecto
+
+El repositorio incluye:
+
+- Modelado conceptual y lógico de la base de datos (diagramas E/R y relacional)  
+- Scripts de creación e ingesta de datos mediante **SQL y Python**  
+- Procesos de carga automatizada desde los CSV proporcionados  
+- Despliegue de la base de datos en un servidor remoto de **Render.com**  
+- Consultas SQL de validación y demostración del funcionamiento  
+
+---
+
+## 🗂️ Estructura del Repositorio
+
+### `src/`
+Incluye los **Jupyter Notebooks**, que contienen:
+- Diseño del modelo  
+- Código de ingestión  
+- Validaciones y análisis  
+
+### `Modelos_Relacional_Logico/`
+Contiene los diagramas **Entidad–Relación** y **Modelo Lógico** utilizados para la construcción de la base de datos.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Python**  
+- **Jupyter Notebook**  
+- **SQL**  
+- **PostgreSQL**  
+- **pgAdmin / DBeaver**  
+- **Render (hosting)**  
+- **Draw.io / Lucidchart**  
+- **Git y GitHub**
+
+---
+
+## 🏁 Resumen del Trabajo
+
+A lo largo del proyecto:
+
+- Normalizamos los datos hasta **3FN**  
+- Diseñamos el **modelo E/R** y su **modelo lógico**  
+- Construimos la base de datos con **SQL**  
+- Automatizamos la ingesta con **Python**  
+- Desplegamos la base en **Render** para su uso externo  
+
+El resultado es una base de datos **clara, escalable y funcional**, preparada para integrarse en cualquier aplicación o flujo de trabajo.
+
+---
+
+## 🏁 Conclusión
+
+Este proyecto nos ha permitido aplicar habilidades complementarias de los bootcamps de **Data Science** y **Full Stack**, desarrollando un sistema completo que abarca todas las fases profesionales de creación de una base de datos:
+
+- Análisis  
+- Normalización  
+- Modelado conceptual  
+- Modelado lógico  
+- Implementación técnica  
+- Ingestión de datos  
+- Despliegue en servidor  
+- Validación mediante consultas  
+
+El resultado es una base de datos **limpia, escalable, normalizada y lista para integrarse en aplicaciones reales**.
 
 ---
