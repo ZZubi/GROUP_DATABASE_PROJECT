@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e656fadb-adef-4fc2-bc08-131cf567b844" />
+![Resultado](/images/readme-intro.png)
 
 
 # 📚 Proyecto de Creación de una Base de Datos Relacional  
@@ -94,3 +94,18 @@ Este proyecto nos ha permitido aplicar habilidades complementarias de los bootca
 El resultado es una base de datos **limpia, escalable, normalizada y lista para integrarse en aplicaciones reales**.
 
 ---
+
+## Ejemplo de uso
+
+* Obtener las notas de los alumnos que hayan presentado los proyectos "EDA" y/o "BBDD"
+
+```
+SELECT a.Id_Alumno, a.Nombre, a.Email, a.Fecha_Comienzo, p.Nombre AS proyecto, pa.Calificacion FROM alumno AS a
+INNER JOIN proyecto_alumno AS pa ON a.Id_Alumno = pa.Id_Alumno
+INNER JOIN proyecto AS p ON p.Id_Proyecto = pa.Id_Proyecto
+WHERE p.Nombre IN ('EDA', 'BBDD')
+ORDER BY a.id_alumno ASC
+```
+* Resultado:
+
+![Resultado](/images/example_query_result.png)
