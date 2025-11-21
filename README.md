@@ -22,7 +22,7 @@ El trabajo ha sido desarrollado conjuntamente por alumnado de **Full Stack** y *
 ### Data Science
 - **Zigor Z.**
 - **Rebeca Pérez**
-- **Patricia Ballesteros**
+- **Patricia B.**
 
 ---
 
